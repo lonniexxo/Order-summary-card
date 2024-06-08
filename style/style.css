@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display',sans-serif;
+}
+
+html{
+    background-color: hsl(225, 100%, 98%);
+}
+
+body{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.image{
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.container__title{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.container__descreption{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+main{
+    background-color: #ffff;
+    max-width: 416px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+section.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.music-price{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.information__link{
+    color:  hsl(245, 75%, 52%);
+    font-weight: 900;
+    transition: 1s;
+}
+
+.information__link:hover{
+    color:  hsl(223, 47%, 23%);
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: hsl(245, 75%, 52%);
+    color: #ffff;
+    font-weight: 700;
+    border: none;
+    width: 100%;;
+    padding: 1rem 0;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    box-shadow: 0 20px 20px rgba(56, 42, 225,0.2);
+    transition: 1s;
+}
+
+button:hover{
+    background-color: hsl(223, 47%, 23%);    
+}
+
+.cancel-oreder{
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    transition: 1s;
+}
+
+.cancel-oreder:hover{
+    color:  hsl(223, 47%, 23%);
+}
+
